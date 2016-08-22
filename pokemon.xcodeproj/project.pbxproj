@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7737BD4F1D6AD184009692CF /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 7737BD4E1D6AD184009692CF /* pokemon.csv */; };
 		77696BCC1D67E56C00323832 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77696BCB1D67E56C00323832 /* AppDelegate.swift */; };
 		77696BCE1D67E56C00323832 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77696BCD1D67E56C00323832 /* ViewController.swift */; };
 		77696BD11D67E56C00323832 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77696BCF1D67E56C00323832 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7737BD4E1D6AD184009692CF /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		77696BC81D67E56C00323832 /* pokemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77696BCB1D67E56C00323832 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77696BCD1D67E56C00323832 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				77696BCB1D67E56C00323832 /* AppDelegate.swift */,
 				77696BCD1D67E56C00323832 /* ViewController.swift */,
 				77696BCF1D67E56C00323832 /* Main.storyboard */,
+				7737BD4E1D6AD184009692CF /* pokemon.csv */,
 				77696BD21D67E56C00323832 /* Assets.xcassets */,
 				77696BD41D67E56C00323832 /* LaunchScreen.storyboard */,
 				77696BD71D67E56C00323832 /* Info.plist */,
@@ -231,6 +234,7 @@
 			files = (
 				77696BD61D67E56C00323832 /* LaunchScreen.storyboard in Resources */,
 				77696BD31D67E56C00323832 /* Assets.xcassets in Resources */,
+				7737BD4F1D6AD184009692CF /* pokemon.csv in Resources */,
 				77696BD11D67E56C00323832 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +488,7 @@
 				77696BF21D67E56C00323832 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77696BF31D67E56C00323832 /* Build configuration list for PBXNativeTarget "pokemonTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				77696BF51D67E56C00323832 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77696BF61D67E56C00323832 /* Build configuration list for PBXNativeTarget "pokemonUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				77696BF81D67E56C00323832 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
